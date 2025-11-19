@@ -1,16 +1,52 @@
-# React + Vite
+# React Todo List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![GitHub Repo Size](https://img.shields.io/github/repo-size/Yusra232/To-do-list)
+![GitHub contributors](https://img.shields.io/github/contributors/Yusra232/To-do-list)
+![GitHub stars](https://img.shields.io/github/stars/Yusra232/To-do-list?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Yusra232/To-do-list?style=social)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 專案介紹
 
-## React Compiler
+這是一個使用 **React + Vite + TailwindCSS + lucide-react** 製作的簡單 Todo List 範例，  
+可以新增、刪除、標記完成任務，並支援搜尋與篩選功能。  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+適合作為學習 React、TailwindCSS 或前端專案結構的練習範例。
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 技術棧
+
+- [React 18](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [lucide-react](https://lucide.dev/)
+- [TypeScript (可選)](https://www.typescriptlang.org/)
+
+---
+
+## 功能
+
+- 新增 / 刪除任務
+- 標記完成 / 未完成
+- 搜尋任務
+- 篩選全部 / 已完成 / 未完成
+- 使用 TailwindCSS 做美化
+- 使用 lucide-react 提供圖示
+
+---
+
+## 安裝
+
+```bash
+# 1. 下載專案
+git clone https://github.com/Yusra232/To-do-list.git
+cd To-do-list
+
+# 2. 安裝依賴
+npm install
+
+# 3. 啟動開發伺服器
+npm run dev
+
