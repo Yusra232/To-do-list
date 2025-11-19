@@ -10,7 +10,7 @@
 ## 專案介紹
 
 這是一個使用 **React + Vite + TailwindCSS + lucide-react** 製作的簡單 Todo List 範例，  
-可以新增、刪除、標記完成任務，並支援搜尋與篩選功能。  
+可以新增、刪除、標記完成任務，並支援搜尋與篩選功能。
 
 適合作為學習 React、TailwindCSS 或前端專案結構的練習範例。
 
@@ -22,7 +22,7 @@
 - [Vite](https://vitejs.dev/)
 - [TailwindCSS](https://tailwindcss.com/)
 - [lucide-react](https://lucide.dev/)
-- [TypeScript (可選)](https://www.typescriptlang.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 
 ---
 
@@ -50,3 +50,5 @@ npm install
 # 3. 啟動開發伺服器
 npm run dev
 
+# 首次部署或更新網站
+npm run deploy
